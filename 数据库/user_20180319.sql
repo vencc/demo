@@ -1,0 +1,3 @@
+INSERT INTO `user` (`id`, `mobile`, `password`, `email`, `create_time`, `gender`, `token`, `login_count`, `last_login_time`, `user_name`, `login_account`) VALUES (1, '123456', '123456', NULL, '2018-3-19 10:28:02', 0, NULL, NULL, NULL, 'vencc', NULL);
+INSERT INTO `user` (`id`, `mobile`, `password`, `email`, `create_time`, `gender`, `token`, `login_count`, `last_login_time`, `user_name`, `login_account`) VALUES (2, '1111111', '123456', NULL, '2018-3-19 13:46:00', 1, NULL, NULL, NULL, 'vencc1', NULL);
+INSERT INTO `user` (`id`, `mobile`, `password`, `email`, `create_time`, `gender`, `token`, `login_count`, `last_login_time`, `user_name`, `login_account`) VALUES (3, '7897897', '123456', NULL, '2018-3-19 13:46:23', 0, NULL, NULL, NULL, 'vencc2', NULL);
