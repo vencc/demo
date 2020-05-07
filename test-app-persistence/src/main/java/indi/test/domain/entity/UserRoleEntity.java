@@ -1,10 +1,8 @@
 package indi.test.domain.entity;
 
-import lombok.Data;
 
 import javax.persistence.*;
 
-@Data
 @Entity
 @Table(name = "sys_user_role")
 public class UserRoleEntity {
@@ -13,4 +11,28 @@ public class UserRoleEntity {
     private String id;
     private String roleId;
     private String userId;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(String roleId) {
+        this.roleId = roleId;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 }
