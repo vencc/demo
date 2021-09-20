@@ -24,7 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <test.version>1.0-SNAPSHOT</test.version>
 
-        <shiro.version>1.5.3</shiro.version>
+        <shiro.version>1.8.0</shiro.version>
         <mysql.version>8.0.20</mysql.version>
     </properties>
 
