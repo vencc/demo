@@ -25,7 +25,7 @@
         <test.version>1.0-SNAPSHOT</test.version>
 
         <shiro.version>1.5.3</shiro.version>
-        <mysql.version>8.0.20</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
 
     <dependencies>
